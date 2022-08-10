@@ -13,6 +13,8 @@ class Form extends Component {
         this.setState(({advOpen}) => ({
             advOpen: !advOpen
         }))
+
+        console.log('({advOpen})');
     }
 
     componentDidMount() {
